@@ -59,7 +59,11 @@ class App extends React.Component {
     My Plan was to add redux actions & reducer to hold an array with all the locations that been searched.
     then to have react-hooks component for representign the POlygon
     at last i was mentioned to have a small table on the buttom of the page for display all the latest history searches that been Done
-    of course i would been separte the page to more components guiding by state manage by redux or local states
+    of course i would been separte the page to more components guidided by state manage by redux or local states
+*plannig of the polygon : from the array in the state another array suppose to take the elements and sort them by closes locations
+The it can be know which location to connect with the Polygon components,
+The polygon component -  areeact hook component that taking as props 3 objects that represents the 3 locations that need to connect by polygon
+Each polygon component style by red triangle fill with z-index red color.
     
     **/
 
