@@ -64,6 +64,9 @@ class App extends React.Component {
 The it can be know which location to connect with the Polygon components,
 The polygon component -  areeact hook component that taking as props 3 objects that represents the 3 locations that need to connect by polygon
 Each polygon component style by red triangle fill with z-index red color.
+If the polygon currently connections are need to be change becuse new closes  location pushed in.
+The useEfect hook suppose to react becuse the redux array was chaned - so in useEfect, if the sort in the array was chaned and added another element
+There is a loop that Run throw the new sorted array and every 3 el create new polygon components. That connect with props the redux_store sorted locations array.
     
     **/
 
